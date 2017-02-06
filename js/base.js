@@ -87,7 +87,7 @@ function getMusic() {
     var songData = {};
     $.ajax({
         type: "get",
-        url: "http://music.qq.com/musicbox/shop/v3/data/hit/hit_all.js",
+        url: "https://music.qq.com/musicbox/shop/v3/data/hit/hit_all.js",
         dataType: "jsonp",
         jsonp: "callback",
         jsonpCallback: "JsonCallback",
